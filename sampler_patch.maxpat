@@ -13,6 +13,16 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-1",
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 512.0, 67.0, 104.0, 20.0 ],
+                    "text": "test"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-51",
                     "maxclass": "newobj",
                     "numinlets": 1,
@@ -240,7 +250,6 @@
                         ]
                     },
                     "patching_rect": [ 713.6000106334686, 612.0, 87.0, 22.0 ],
-                    "presentation_linecount": 2,
                     "text": "p sample_high"
                 }
             },
@@ -722,7 +731,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "float", "bang" ],
-                    "patching_rect": [ 858.0, 239.0, 188.0, 22.0 ],
+                    "patching_rect": [ 859.0, 187.0, 188.0, 22.0 ],
                     "text": "buffer~ engineHigh high_rpm.wav"
                 }
             },
@@ -733,7 +742,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "float", "bang" ],
-                    "patching_rect": [ 858.0, 210.0, 179.0, 22.0 ],
+                    "patching_rect": [ 859.0, 158.0, 179.0, 22.0 ],
                     "text": "buffer~ engineMid mid_rpm.wav"
                 }
             },
@@ -1214,7 +1223,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 880.0000131130219, 312.0000046491623, 150.0, 20.0 ],
+                    "patching_rect": [ 877.0, 337.0, 104.0, 20.0 ],
                     "text": "granular (sample)"
                 }
             },
@@ -2212,8 +2221,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 308.0, 670.0, 47.0, 22.0 ],
-                    "text": "*~ 0.25"
+                    "patching_rect": [ 308.0, 670.0, 40.0, 22.0 ],
+                    "text": "*~ 0.4"
                 }
             },
             {
@@ -2223,8 +2232,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 365.0, 670.0, 47.0, 22.0 ],
-                    "text": "*~ 0.25"
+                    "patching_rect": [ 365.0, 670.0, 40.0, 22.0 ],
+                    "text": "*~ 0.3"
                 }
             },
             {
@@ -2234,8 +2243,8 @@
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "signal" ],
-                    "patching_rect": [ 262.0, 710.0, 40.0, 22.0 ],
-                    "text": "*~ 0.1"
+                    "patching_rect": [ 262.0, 710.0, 47.0, 22.0 ],
+                    "text": "*~ 0.25"
                 }
             },
             {
@@ -2291,7 +2300,7 @@
                     "numinlets": 1,
                     "numoutlets": 2,
                     "outlettype": [ "float", "bang" ],
-                    "patching_rect": [ 858.0, 181.0, 181.0, 22.0 ],
+                    "patching_rect": [ 859.0, 129.0, 181.0, 22.0 ],
                     "text": "buffer~ engineLow low_rpm.wav"
                 }
             },
